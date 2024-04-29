@@ -1,0 +1,13 @@
+/*.log
+/*.pyc
+.env
+/env/
+*.pyc
+*.idea
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+__pycache__/*
+media/
+env/
+.DS_Store
