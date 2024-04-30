@@ -4,10 +4,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from .views import *
 
-
 urlpatterns = [
-   path("view-post", view_post, name="view_post"),
-   path("get_weather", get_weather, name="get_weather"),
-   path("list_post/", PostAPIView.as_view()),
-
+    path("", index, name="index"),
+    path("register/", register, name="register"),
 ]    
