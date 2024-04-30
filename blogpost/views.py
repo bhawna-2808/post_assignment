@@ -82,7 +82,8 @@ api_key = "YOUR_API_KEY"  # Replace this with your actual API key from OpenWeath
 get_weather(city_name, api_key)
 
 
-
+""" APIS Of list and create post
+"""
 class PostAPIView(ListCreateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
